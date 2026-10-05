@@ -1,0 +1,115 @@
+[
+  {
+    "id": "q01",
+    "question": "What is Mistral AI's business model, model tiers, and enterprise pricing?",
+    "category": "ai_commercial",
+    "must_appear_facts": [
+      "Mistral Large",
+      "128k",
+      "\\$2(?:\\.00)?",
+      "Apache 2\\.0",
+      "La Plateforme"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "What is the commercial pricing, target indications, and FDA approval date for Casgevy?",
+    "category": "biotech_regulatory",
+    "must_appear_facts": [
+      "sickle cell",
+      "\\$2\\.2\\s*(?:million|M)",
+      "Vertex",
+      "CRISPR(?:/Cas9)?",
+      "2023"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "What are the commercial fees, supported blockchains, and features of Stripe Pay with Crypto?",
+    "category": "fintech_payments",
+    "must_appear_facts": [
+      "USDC",
+      "1\\.5%",
+      "Solana",
+      "Bridge",
+      "150"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "What is Databricks' Lakebase architecture, Unity Catalog governance, and pricing structure?",
+    "category": "cloud_data",
+    "must_appear_facts": [
+      "Unity Catalog",
+      "Apache Iceberg|Delta Lake",
+      "DBU",
+      "governance"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What are Anthropic's Claude 3.5 Sonnet context capabilities, pricing, and Computer Use feature?",
+    "category": "ai_commercial",
+    "must_appear_facts": [
+      "200k",
+      "\\$3",
+      "Computer Use",
+      "Sonnet"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "What are the pricing tiers, vector search capabilities, and hosting regions for Pinecone Serverless?",
+    "category": "infrastructure",
+    "must_appear_facts": [
+      "serverless",
+      "read units|write units",
+      "AWS|GCP|Azure",
+      "vector"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "What is OpenAI's o1 reasoning model architecture, token pricing, and benchmark performance?",
+    "category": "ai_commercial",
+    "must_appear_facts": [
+      "o1",
+      "reasoning",
+      "\\$15",
+      "math|coding"
+    ]
+  },
+  {
+    "id": "q08",
+    "question": "What are SpaceX Starlink's direct-to-cell capabilities, cellular partnerships, and commercial rollout?",
+    "category": "telecom_aerospace",
+    "must_appear_facts": [
+      "Direct to Cell",
+      "T-Mobile",
+      "FCC",
+      "messaging|text"
+    ]
+  },
+  {
+    "id": "q09",
+    "question": "What is Cloudflare Workers AI pricing, inference capabilities, and edge GPU hardware?",
+    "category": "edge_computing",
+    "must_appear_facts": [
+      "Neurons",
+      "GPU",
+      "Workers AI",
+      "edge"
+    ]
+  },
+  {
+    "id": "q10",
+    "question": "What are Figma's enterprise seat pricing, Dev Mode subscription fees, and AI capabilities?",
+    "category": "saas_enterprise",
+    "must_appear_facts": [
+      "Dev Mode",
+      "\\$25|\\$75",
+      "Enterprise",
+      "Figma AI"
+    ]
+  }
+]

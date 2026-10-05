@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Local secrets & environment files
+.env
+.env.local
+*.key
+
+# Local runtime & search cache
+.cache/
+cache_data/
+
+# OS artifacts
+.DS_Store
+Thumbs.db

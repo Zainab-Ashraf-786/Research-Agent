@@ -1,0 +1,282 @@
+[
+  {
+    "id": "c01",
+    "claim": "Mistral Large 2 offers a 128k token context window priced at $2.00 per million input tokens.",
+    "source_excerpt": "Mistral Large 2 features an advanced 128k context length with pricing set at $2.00/1M input tokens and $6.00/1M output tokens.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Exact context size and numeric pricing match."
+  },
+  {
+    "id": "c02",
+    "claim": "Mistral Large 2 is priced at $20 per million input tokens.",
+    "source_excerpt": "Mistral Large 2 features an advanced 128k context length with pricing set at $2.00/1M input tokens.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Number distorted from $2.00 to $20."
+  },
+  {
+    "id": "c03",
+    "claim": "Mistral AI was founded in Paris in 2023 by former researchers from DeepMind and Meta.",
+    "source_excerpt": "Founded in 2023 in Paris, Mistral AI was created by former Google DeepMind and Meta AI researchers.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Direct factual support."
+  },
+  {
+    "id": "c04",
+    "claim": "All Mistral models are completely free for unlimited commercial use.",
+    "source_excerpt": "Mistral releases open-weights models under Apache 2.0, while enterprise commercial models are billed per token via API.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Direct contradiction regarding commercial model pricing."
+  },
+  {
+    "id": "c05",
+    "claim": "Casgevy list price is $2.2 million per treatment in the United States.",
+    "source_excerpt": "Vertex and CRISPR Therapeutics set the US wholesale acquisition cost for Casgevy at $2.2 million per patient.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Exact price and currency match."
+  },
+  {
+    "id": "c06",
+    "claim": "Casgevy was approved in all 195 countries worldwide in 2023.",
+    "source_excerpt": "The US FDA approved Casgevy in December 2023, followed by the UK and European approvals in early 2024.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Wildly overstated geographic scope."
+  },
+  {
+    "id": "c07",
+    "claim": "Casgevy is indicated for patients with sickle cell disease and transfusion-dependent beta thalassemia.",
+    "source_excerpt": "FDA approved Casgevy for patients aged 12 and older with severe sickle cell disease or transfusion-dependent beta-thalassemia.",
+    "ground_truth_verdict": "PARTIAL",
+    "split": "dev",
+    "notes": "Omits the key regulatory age qualification (12 years and older)."
+  },
+  {
+    "id": "c08",
+    "claim": "Stripe Pay with Crypto charges merchants a 1.5% transaction fee.",
+    "source_excerpt": "Crypto transactions incur a 1.5% fee on the total transaction amount, with automatic conversion to fiat currency.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Exact percentage and service match."
+  },
+  {
+    "id": "c09",
+    "claim": "Stripe charges no transaction fees on stablecoin payments.",
+    "source_excerpt": "Crypto transactions incur a 1.5% fee on the total transaction amount, with automatic conversion to fiat currency.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Contradicts 1.5% fee schedule."
+  },
+  {
+    "id": "c10",
+    "claim": "Stripe acquired stablecoin startup Bridge for approximately $1.1 billion.",
+    "source_excerpt": "Stripe completed the acquisition of stablecoin payment infrastructure provider Bridge in an agreement valued at $1.1B.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Exact figure and entity match."
+  },
+  {
+    "id": "c11",
+    "claim": "Stripe acquired Bridge for $11 billion.",
+    "source_excerpt": "Stripe completed the acquisition of stablecoin payment infrastructure provider Bridge in an agreement valued at $1.1B.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "10x order of magnitude distortion."
+  },
+  {
+    "id": "c12",
+    "claim": "Claude 3.5 Sonnet offers a 200,000 token context window and pricing of $3 per million input tokens.",
+    "source_excerpt": "Claude 3.5 Sonnet operates with a 200k context window, priced at $3.00 per million input tokens and $15.00 per million output tokens.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Full numeric and model match."
+  },
+  {
+    "id": "c13",
+    "claim": "Claude 3.5 Sonnet includes Computer Use capabilities allowing direct desktop interaction.",
+    "source_excerpt": "Anthropic introduced an upgraded Claude 3.5 Sonnet featuring Computer Use in public beta, allowing developers to direct Claude to interact with computer screens.",
+    "ground_truth_verdict": "PARTIAL",
+    "split": "dev",
+    "notes": "Omits that Computer Use is currently in 'public beta' rather than general availability."
+  },
+  {
+    "id": "c14",
+    "claim": "Pinecone Serverless charges solely for storage with zero fees for reads or writes.",
+    "source_excerpt": "Pinecone Serverless decouples reads, writes, and storage, billing per read unit (RU), write unit (WU), and GB of vector data.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Contradicts multi-dimensional billing model."
+  },
+  {
+    "id": "c15",
+    "claim": "Pinecone Serverless separates read, write, and storage billing tiers.",
+    "source_excerpt": "Pinecone Serverless decouples reads, writes, and storage, billing per read unit (RU), write unit (WU), and GB of vector data.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Direct alignment."
+  },
+  {
+    "id": "c16",
+    "claim": "Databricks Unity Catalog provides centralized governance across tables, files, and AI models.",
+    "source_excerpt": "Unity Catalog acts as a unified governance solution for data and AI assets across multiple clouds, governing tables, volumes, and registered models.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Matches governance scope."
+  },
+  {
+    "id": "c17",
+    "claim": "Databricks Unity Catalog is restricted exclusively to the Microsoft Azure platform.",
+    "source_excerpt": "Unity Catalog delivers cross-cloud governance interoperating across AWS, Microsoft Azure, and Google Cloud Platform.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Directly contradicts multi-cloud capability."
+  },
+  {
+    "id": "c18",
+    "claim": "OpenAI o1 reasoning model costs $15 per million input tokens.",
+    "source_excerpt": "The full OpenAI o1 model is available via the API at $15.00 per million input tokens and $60.00 per million output tokens.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Exact pricing match."
+  },
+  {
+    "id": "c19",
+    "claim": "OpenAI o1 solves 100% of PhD-level physics exam questions without error.",
+    "source_excerpt": "On difficult competitive benchmarks, OpenAI o1 performs comparably to PhD students in physics and chemistry, achieving an 83% accuracy rate on GPQA Diamond.",
+    "ground_truth_verdict": "PARTIAL",
+    "split": "dev",
+    "notes": "Exaggerates 83% benchmark performance to 100% flawless accuracy."
+  },
+  {
+    "id": "c20",
+    "claim": "Starlink Direct to Cell delivers high-speed gigabit fiber internet to ordinary smartphones.",
+    "source_excerpt": "Starlink Direct to Cell provides basic text messaging connectivity to unmodified LTE phones, expanding to voice and low-bandwidth IoT data.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Misrepresents low-bandwidth text messaging as gigabit fiber speed."
+  },
+  {
+    "id": "c21",
+    "claim": "Starlink Direct to Cell partners with mobile network operators including T-Mobile in the US.",
+    "source_excerpt": "SpaceX partnered with T-Mobile in the United States and international carriers to enable Direct to Cell text messaging service.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Direct partnership match."
+  },
+  {
+    "id": "c22",
+    "claim": "Cloudflare Workers AI bills inference based on Neurons.",
+    "source_excerpt": "Workers AI calculates usage using Neurons, a standardized unit measuring compute across diverse model architectures.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Accurate pricing metric."
+  },
+  {
+    "id": "c23",
+    "claim": "Figma Dev Mode is included for free in all starter plans forever.",
+    "source_excerpt": "Following the open beta period, Figma introduced paid Dev Mode seats priced at $25 per seat/month on Organization plans.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Contradicts paid seat pricing."
+  },
+  {
+    "id": "c24",
+    "claim": "Figma Dev Mode costs $25 per seat/month on Organization plans.",
+    "source_excerpt": "Following the open beta period, Figma introduced paid Dev Mode seats priced at $25 per seat/month on Organization plans.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "dev",
+    "notes": "Exact seat fee match."
+  },
+  {
+    "id": "c25",
+    "claim": "Anthropic was acquired by Amazon for $40 billion.",
+    "source_excerpt": "Amazon completed a minority investment of $4 billion into Anthropic, maintaining Anthropic as an independent corporation.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "dev",
+    "notes": "Wrong amount ($4B vs $40B) and wrong transaction type (minority investment vs full acquisition)."
+  },
+  {
+    "id": "c26",
+    "claim": "Codestral supports code completion across 80+ programming languages.",
+    "source_excerpt": "Trained on over 80 programming languages, Codestral provides high-speed fill-in-the-middle code generation.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: exact capability match."
+  },
+  {
+    "id": "c27",
+    "claim": "Codestral only supports Python and JavaScript.",
+    "source_excerpt": "Trained on over 80 programming languages, Codestral provides high-speed fill-in-the-middle code generation.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: falsely restricts 80+ languages to 2."
+  },
+  {
+    "id": "c28",
+    "claim": "Casgevy was developed as a collaboration between Vertex Pharmaceuticals and CRISPR Therapeutics.",
+    "source_excerpt": "Casgevy was co-developed by Vertex Pharmaceuticals and CRISPR Therapeutics under a global joint development and commercialization pact.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: corporate partners matched."
+  },
+  {
+    "id": "c29",
+    "claim": "Vertex Pharmaceuticals developed Casgevy without any industry partners.",
+    "source_excerpt": "Casgevy was co-developed by Vertex Pharmaceuticals and CRISPR Therapeutics under a global joint development and commercialization pact.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: directly contradicts joint collaboration."
+  },
+  {
+    "id": "c30",
+    "claim": "Stripe supports USDC stablecoin payouts on Solana, Ethereum, and Polygon.",
+    "source_excerpt": "Stripe's Pay with Crypto accepts USDC transactions natively settled across Solana, Ethereum, and Polygon blockchains.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: exact blockchain list match."
+  },
+  {
+    "id": "c31",
+    "claim": "Stripe supports stablecoin payouts exclusively on Bitcoin.",
+    "source_excerpt": "Stripe's Pay with Crypto accepts USDC transactions natively settled across Solana, Ethereum, and Polygon blockchains.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: erroneous blockchain substitution."
+  },
+  {
+    "id": "c32",
+    "claim": "OpenAI o1 mini is optimized for coding, STEM, and math reasoning tasks at an 80% lower cost than o1.",
+    "source_excerpt": "o1-mini delivers cost-efficient reasoning tailored to math and coding benchmarks, priced at $3.00/1M input and $12.00/1M output, approximately 80% cheaper than full o1.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: exact target domain and discount rate."
+  },
+  {
+    "id": "c33",
+    "claim": "o1-mini outperforms full o1 across all humanities and creative writing benchmarks.",
+    "source_excerpt": "While o1-mini excels at STEM reasoning, OpenAI notes that full o1 retains broader factual knowledge and superior creative writing proficiency.",
+    "ground_truth_verdict": "UNSUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: complete inversion of documented capabilities."
+  },
+  {
+    "id": "c34",
+    "claim": "Figma Enterprise subscription includes private workspace provisioning and advanced security controls.",
+    "source_excerpt": "Figma Enterprise tier offers dedicated workspaces, SCIM provisioning, centralized audit logs, and custom session timeouts.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: matches enterprise feature specifications."
+  },
+  {
+    "id": "c35",
+    "claim": "Starlink has launched over 6,000 low-Earth orbit satellites to date.",
+    "source_excerpt": "SpaceX has deployed more than 6,000 Starlink satellites into low Earth orbit to support its broadband constellation.",
+    "ground_truth_verdict": "SUPPORTED",
+    "split": "held_out",
+    "notes": "Held-out test: exact count and orbit match."
+  }
+]

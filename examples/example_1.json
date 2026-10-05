@@ -1,0 +1,97 @@
+{
+  "question": "What is Mistral AI's business model, model portfolio, and pricing structure?",
+  "title": "Mistral AI: Commercial Strategy, Model Portfolio, and API Pricing",
+  "generated_at": "2026-10-01T14:30:00Z",
+  "model_used": "gemini-2.5-flash",
+  "claims": [
+    {
+      "claim_id": 1,
+      "text": "Mistral AI operates a dual business model offering open-weight models under permissive licenses alongside proprietary commercial models hosted via the La Plateforme API.",
+      "citation_ids": [1, 2],
+      "section": "summary",
+      "verdict": "SUPPORTED",
+      "reason": "Directly supported by official documentation outlining open Apache-2.0 models and commercial enterprise endpoints.",
+      "supporting_quotes": [
+        "Mistral provides open-weights models available under Apache 2.0 while offering commercial-grade models exclusively via La Plateforme API."
+      ]
+    },
+    {
+      "claim_id": 2,
+      "text": "The company's flagship model, Mistral Large 2, supports a 128k token context window and is priced at $2.00 per million input tokens and $6.00 per million output tokens.",
+      "citation_ids": [1],
+      "section": "key_findings",
+      "verdict": "SUPPORTED",
+      "reason": "Exact numbers and token pricing tiers match published rates in the source pricing schedule.",
+      "supporting_quotes": [
+        "Mistral Large 2 features 128k context length with pricing set at $2.00/1M input tokens and $6.00/1M output tokens."
+      ]
+    },
+    {
+      "claim_id": 3,
+      "text": "Codestral, designed specifically for code generation, provides an 80-language syntax support window for $1.00 per million input tokens.",
+      "citation_ids": [2],
+      "section": "key_findings",
+      "verdict": "SUPPORTED",
+      "reason": "Supported by the Codestral developer documentation and pricing tiers.",
+      "supporting_quotes": [
+        "Codestral supports over 80 programming languages at $1.00 per million input tokens."
+      ]
+    },
+    {
+      "claim_id": 4,
+      "text": "Mistral AI guarantees 99.99% SLA availability for all free-tier API accounts.",
+      "citation_ids": [1],
+      "section": "key_findings",
+      "verdict": "UNSUPPORTED",
+      "reason": "The source explicitly states that SLAs are reserved exclusively for custom enterprise contracts, not free-tier accounts.",
+      "supporting_quotes": [
+        "Custom uptime SLAs are available solely for contracted Enterprise tier customers."
+      ]
+    },
+    {
+      "claim_id": 5,
+      "text": "Mistral has raised over €1 billion to date and holds major cloud distribution agreements with Microsoft Azure, Amazon Bedrock, and Snowflake.",
+      "citation_ids": [3],
+      "section": "key_findings",
+      "verdict": "SUPPORTED",
+      "reason": "Confirmed by financial press coverage of Mistral's series B funding round.",
+      "supporting_quotes": [
+        "Following its €600M Series B round, Mistral AI exceeded €1B in total capital with distribution partnerships across Azure, Bedrock, and Snowflake."
+      ]
+    }
+  ],
+  "gaps_and_conflicts": [
+    "Enterprise on-premises appliance pricing and custom fine-tuning charges require direct sales negotiation and are not publicly indexed."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mistral AI: Pricing and Models Documentation",
+      "url": "https://docs.mistral.ai/getting-started/models/",
+      "domain": "mistral.ai",
+      "published_date": "2026-08-15"
+    },
+    {
+      "id": 2,
+      "title": "Codestral Release and Developer Specifications",
+      "url": "https://mistral.ai/news/codestral/",
+      "domain": "mistral.ai",
+      "published_date": "2026-05-29"
+    },
+    {
+      "id": 3,
+      "title": "Mistral AI Closes €600M Series B Valuation",
+      "url": "https://techcrunch.com/2026/06/11/mistral-ai-series-b/",
+      "domain": "techcrunch.com",
+      "published_date": "2026-06-11"
+    }
+  ],
+  "total_claims": 5,
+  "supported": 4,
+  "partial": 0,
+  "unsupported": 1,
+  "dropped_uncited_claims": 0,
+  "dropped_invalid_quotes": 0,
+  "llm_calls": 5,
+  "elapsed_s": 24.8
+}

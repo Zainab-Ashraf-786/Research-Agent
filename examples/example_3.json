@@ -1,0 +1,86 @@
+{
+  "question": "What is Stripe's cryptocurrency and stablecoin payments product offering and commercial terms?",
+  "title": "Stripe: 'Pay with Crypto' Architecture, Stablecoin Settlement, and Bridge Acquisition",
+  "generated_at": "2026-10-02T16:00:00Z",
+  "model_used": "gemini-2.5-flash",
+  "claims": [
+    {
+      "claim_id": 1,
+      "text": "Stripe launched 'Pay with Crypto', allowing merchants in over 150 countries to accept USDC stablecoin payments across Solana, Ethereum, and Polygon blockchains.",
+      "citation_ids": [1, 2],
+      "section": "summary",
+      "verdict": "SUPPORTED",
+      "reason": "Directly backed by Stripe product announcement specifying supported chains and merchant regions.",
+      "supporting_quotes": [
+        "Stripe merchants can accept USDC on Solana, Ethereum, and Polygon, settling funds directly into local fiat currency across 150+ countries."
+      ]
+    },
+    {
+      "claim_id": 2,
+      "text": "Merchants receive payouts converted automatically into US Dollars or their local domestic currency with a 1.5% transaction fee.",
+      "citation_ids": [1],
+      "section": "key_findings",
+      "verdict": "SUPPORTED",
+      "reason": "Confirmed by Stripe payment documentation on crypto fee schedules.",
+      "supporting_quotes": [
+        "Crypto transactions incur a 1.5% fee on the total transaction amount, with automatic conversion to local bank settlement."
+      ]
+    },
+    {
+      "claim_id": 3,
+      "text": "In October 2024, Stripe acquired stablecoin infrastructure platform Bridge for approximately $1.1 billion.",
+      "citation_ids": [3],
+      "section": "key_findings",
+      "verdict": "SUPPORTED",
+      "reason": "Matches public reporting on Stripe's largest acquisition to date.",
+      "supporting_quotes": [
+        "Stripe completed the acquisition of stablecoin startup Bridge in a deal valued at $1.1 billion."
+      ]
+    },
+    {
+      "claim_id": 4,
+      "text": "Stripe charges 0% fees for cryptocurrency payments processed on Sundays.",
+      "citation_ids": [1],
+      "section": "key_findings",
+      "verdict": "UNSUPPORTED",
+      "reason": "No evidence exists in the official pricing schedules for day-of-week fee waivers.",
+      "supporting_quotes": [
+        "Standard transaction fee of 1.5% applies to all processed crypto volume."
+      ]
+    }
+  ],
+  "gaps_and_conflicts": [
+    "Specific interchange fee sharing terms between Stripe and blockchain validator networks remain unpublicized."
+  ],
+  "sources": [
+    {
+      "id": 1,
+      "title": "Stripe: Pay with Crypto Product Documentation",
+      "url": "https://stripe.com/docs/crypto",
+      "domain": "stripe.com",
+      "published_date": "2024-10-09"
+    },
+    {
+      "id": 2,
+      "title": "Stripe Relaunches Crypto Payments via USDC",
+      "url": "https://www.coindesk.com/business/2024/10/09/stripe-re-launches-crypto-pay/",
+      "domain": "coindesk.com",
+      "published_date": "2024-10-09"
+    },
+    {
+      "id": 3,
+      "title": "Stripe Acquires Stablecoin Platform Bridge for $1.1B",
+      "url": "https://techcrunch.com/2024/10/20/stripe-acquires-bridge-1-1b/",
+      "domain": "techcrunch.com",
+      "published_date": "2024-10-20"
+    }
+  ],
+  "total_claims": 4,
+  "supported": 3,
+  "partial": 0,
+  "unsupported": 1,
+  "dropped_uncited_claims": 0,
+  "dropped_invalid_quotes": 0,
+  "llm_calls": 5,
+  "elapsed_s": 22.9
+}
