@@ -1,0 +1,28 @@
+# Git and environment files
+.git/
+.gitignore
+.env
+.env.*
+!.env.example
+
+# Virtual environments and caches
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.cache/
+
+# Spec-Kit internal artifacts and tests
+.specify/
+history/
+tests/
+specs/
+
+# OS artifacts
+.DS_Store
+Thumbs.db

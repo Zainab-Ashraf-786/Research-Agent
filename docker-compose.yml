@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  research-brief-agent:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: research-brief-agent
+    ports:
+      - "8501:8501"
+    environment:
+      - LLM_BASE_URL=${LLM_BASE_URL:-https://generativelanguage.googleapis.com/v1beta/openai/}
+      - LLM_MODEL=${LLM_MODEL:-gemini-2.5-flash}
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_MIN_INTERVAL_SECONDS=${LLM_MIN_INTERVAL_SECONDS:-2.0}
+      - TAVILY_API_KEY=${TAVILY_API_KEY:-}
+    restart: unless-stopped
